@@ -1,0 +1,85 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@keerthiPrasadShetty 
+garlicStack
+/
+Simple-Interest-Calculator
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Simple-Interest-Calculator/Simple-Interest-Calculator/index.html
+@garlicStack
+garlicStack Add files via upload
+Latest commit ecf24e2 on Aug 18
+ History
+ 1 contributor
+42 lines (39 sloc)  1.38 KB
+   
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Interest Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="maindiv">
+        <h1 id="title">Simple Interest Calculator</h1>
+        <div class="interestdiv">
+        Amount <input class="amount" type="number" autofocus="on" id="principal" name="principal">  <br/><br/>
+        Rate <input class="rate" type="range" onchange="updateRate()" id="rate" min=1 max=20 step=0.25 value=10.25>
+        <span class="rate" id="rate_val">10.25%</span>
+        <br/><br/>
+        No. of Years <select class="year" id="years">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>  
+        <br/><br/>
+        <input type="button" value="Compute Interest" onclick="compute()">
+    
+        <br/>
+        <br/>
+        Interest : <span id="result"></span>
+        
+        <br/>
+    </div>
+    <br/>
+        <footer>&#169; this Calculator belongs to Chethan</footer>
+    </div>
+    
+    </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
