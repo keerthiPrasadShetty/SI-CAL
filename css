@@ -1,0 +1,88 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@keerthiPrasadShetty 
+garlicStack
+/
+Simple-Interest-Calculator
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Simple-Interest-Calculator/Simple-Interest-Calculator/style.css
+@garlicStack
+garlicStack Add files via upload
+Latest commit ecf24e2 on Aug 18
+ History
+ 1 contributor
+45 lines (41 sloc)  648 Bytes
+   
+#title{
+    position: relative;
+    
+    left: 40px;
+}
+body {background-color:black;
+    font-family:arial;
+    color:white;}
+
+.maindiv{
+    background-color:white;
+    color:black;
+    width:500px;
+    height: 400;
+    padding:20px;
+    border-radius:25px;
+    margin: auto;
+    
+}
+.interestdiv{
+    font-weight: 600;
+    position: relative;
+    left:100px;
+    width:350px;
+  }
+  .principal{
+    margin:5px;
+    position: relative;
+    left :30px;
+  }
+  .rate{
+    margin : 10px;
+    position: relative;
+    left :50px;
+  }
+  .year{
+    margin : 10px;
+  }
+
+h1{color:gray;
+    font-family:verdona;
+}
+span.highlight{
+    background-color: yellow;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
